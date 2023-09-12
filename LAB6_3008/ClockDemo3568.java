@@ -1,3 +1,7 @@
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.Scanner;
+
 class Clock{
     private int hour;
     private int minute;
@@ -105,5 +109,26 @@ class Clock{
     }
     public void show(){
         System.out.println(hour + ":" + minute + ":" + second);
+    }
+}
+
+public class ClockDemo3568 {
+    public static void main(String args[]){
+        System.out.println("Current Date: " + LocalDate.now());
+        System.out.println("Current Time: " + LocalTime.now());
+        System.out.println("Name: Vijai Suria M \nRegister Number: (2021503568)");
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number of seconds from midnight: ");
+        int secondsFromMindnight = in.nextInt();
+        Clock b = new Clock(secondsFromMindnight);
+        Clock a = new Clock();
+        System.out.print("Clock 1:");
+        a.show();
+        System.out.print("Clock 2:");
+        b.show();
+        Clock c = a.subtractClock(b);
+        System.out.print("Clock 3 => Clock_1 - Clock_2 = ");
+        c.show();
+        in.close();
     }
 }
