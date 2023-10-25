@@ -105,7 +105,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Current Date: " + LocalDate.now());
         System.out.println("Current Time: " + LocalTime.now());
-        System.out.println("Name: Vijai Suria M \nRegister Number: (2021503568)");1
+        System.out.println("Name: Vijai Suria M \nRegister Number: (2021503568)");
 
         while (true) {
             System.out.println("\nMenu:");
