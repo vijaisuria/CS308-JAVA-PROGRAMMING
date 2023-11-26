@@ -13,11 +13,10 @@ public class Sum3568 {
         int[][] array1 = readArray(scanner, rows, columns, "Array 1");
         int[][] array2 = readArray(scanner, rows, columns, "Array 2");
 
-
         int[][] sumArrays = new int[rows][columns];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                sumArrays[i][j] = array1[i][j] + array2[i][j];  
+                sumArrays[i][j] = array1[i][j] + array2[i][j];
             }
         }
 
@@ -26,16 +25,11 @@ public class Sum3568 {
 
         int[] colSum = getColumnSums(sumArrays);
 
-        Arrays.sort(sumArrays, (a, b) -> Integer.compare(b[0], a[0]));
+        sumArrays = colSort(colSum, sumArrays, columns);
 
         System.out.println("Sorted sum array:");
-        int[][] sortedSumArray = new int[2][columns];
-        for (int i = 0; i < columns; i++) {
-            int colIndex = sumArrays[i][1];
-            sortedSumArray[i] = sumArrays[i];
-            sortedSumArray[i][1] = colIndex;
-        }
-        print2DArray(sortedSumArray);
+
+        print2DArray(sumArrays);
     }
 
     public static int[][] readArray(Scanner scanner, int rows, int columns, String arrayName) {
@@ -70,5 +64,11 @@ public class Sum3568 {
             }
             System.out.println();
         }
+    }
+
+    public static void colSort(int arr[], int[][] array, int r, int c) {
+        int[][] newArray = new int[r][c];
+        int min_idx = 0, mini=Integer.MAX_VALUE;
+        
     }
 }

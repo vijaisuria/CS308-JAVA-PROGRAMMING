@@ -1,3 +1,6 @@
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 class LivingBeing {
     String name;
 
@@ -83,6 +86,9 @@ class Dog extends Animal {
 
 public class MultilevelInheritance3568 {
     public static void main(String[] args) {
+        System.out.println("Current Date: " + LocalDate.now());
+        System.out.println("Current Time: " + LocalTime.now());
+        System.out.println("Name: Vijai Suria M \nRegister Number: (2021503568)");
         Cat cat = new Cat("Laks", 4, "Siamese");
         Dog dog = new Dog("Copper", 4, "Pomeranian");
         System.out.println(cat);
