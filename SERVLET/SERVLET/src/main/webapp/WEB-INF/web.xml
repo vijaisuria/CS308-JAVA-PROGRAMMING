@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>HelloServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>pqr</servlet-name>
+    <servlet-class>addServlet </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pqr</servlet-name>
+    <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+<welcome-file-list>
+  <welcome-file>add.html</welcome-file>
+</welcome-file-list>
+  add.html
+</web-app>
