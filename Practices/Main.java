@@ -6,7 +6,7 @@ public class Main {
 
         try (BufferedReader in = new BufferedReader(
                 new InputStreamReader(new URL("https://vijaisuria.github.io").openConnection().getInputStream()));
-                BufferedWriter out = new BufferedWriter(new FileWriter("index1.html"))) {
+                BufferedWriter out = new BufferedWriter(new FileWriter("index.html"))) {
             String i;
             while ((i = in.readLine()) != null) {
                 out.write(i);
