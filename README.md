@@ -55,7 +55,7 @@ Upon completion of the course, students will be able to:
 
 ### Acknowledgment
 
-A special thank you to our college faculty, Dr. Jayachitra. V P, Assistant Professor (Sl. Grade), [Department of Computer Technology, Anna University](http://www.ct.mitindia.edu/dct/#/home/people/staffs/profile/67068), for their guidance and support throughout the course.
+A special thank you to our college faculty, [Dr. Jayachitra. V P](http://www.ct.mitindia.edu/dct/#/home/people/staffs/profile/67068), Assistant Professor (Sl. Grade), Department of Computer Technology, Anna University, for their guidance and support throughout the course.
 
 ---
 
@@ -66,7 +66,7 @@ For any inquiries or contributions, please contact me
 [Vijai Suria M](mailto:vijaisuriam@gmail.com),
 2021503568,
 Dept. of Computer Technology,
-MIT Campus, Anna University,
+MIT Campus, Anna University, 
 Chennai
 
 ### Contact Links
