@@ -63,10 +63,10 @@ A special thank you to our college faculty, [Dr. Jayachitra. V P](http://www.ct.
 
 For any inquiries or contributions, please contact me
 
-[Vijai Suria M](mailto:vijaisuriam@gmail.com),
-2021503568,
-Dept. of Computer Technology,
-MIT Campus, Anna University, 
+[Vijai Suria M](mailto:vijaisuriam@gmail.com), <br>
+2021503568, <br>
+Dept. of Computer Technology, <br>
+MIT Campus, Anna University, <br>
 Chennai
 
 ### Contact Links
